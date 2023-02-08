@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+body {
+  height: 100vh;
+  font-family: "Overpass", sans-serif;
+  background-color: hsl(216deg, 12%, 8%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: hsl(213deg, 19%, 18%);
+  width: 22rem;
+  padding: 2rem;
+  border-radius: 1.7rem;
+}
+.container .circle-star {
+  background-color: hsl(213deg, 14%, 25%);
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container .title {
+  margin-top: 2rem;
+  margin-bottom: 0;
+  color: hsl(0deg, 0%, 100%);
+  font-size: 1.7rem;
+}
+.container .text {
+  margin-top: 0.6rem;
+  width: 20rem;
+  line-height: 1.5rem;
+  font-size: 0.9rem;
+}
+.container .text,
+.container .numbers {
+  color: hsl(217deg, 12%, 63%);
+}
+.container input[type=radio] {
+  display: none;
+}
+.container .numbers {
+  margin-top: 1.7rem;
+  display: flex;
+  justify-content: space-between;
+}
+.container .numbers .circle {
+  background-color: hsl(213deg, 14%, 25%);
+  border-radius: 50%;
+  width: 3.2rem;
+  height: 3.2rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container .numbers .circle .number {
+  margin-top: 0.3rem;
+}
+.container .numbers .circle:hover,
+.container .numbers .circle :active {
+  background-color: hsl(25deg, 97%, 53%);
+  color: hsl(0deg, 0%, 100%);
+  cursor: pointer;
+}
+.container .numbers .circle:active {
+  background-color: hsl(217deg, 12%, 63%);
+  color: hsl(0deg, 0%, 100%);
+}
+.container .numbers .selected {
+  background-color: hsl(217deg, 12%, 63%);
+  color: hsl(0deg, 0%, 100%);
+}
+.container .evaluation button {
+  font-family: "Overpass", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  color: hsl(0deg, 0%, 100%);
+  background-color: hsl(25deg, 97%, 53%);
+  border: none;
+  width: 100%;
+  margin-top: 2rem;
+  padding: 1rem 0 0.8rem 0;
+  border-radius: 2rem;
+}
+.container .evaluation button:hover {
+  background-color: hsl(0deg, 0%, 100%);
+  color: hsl(25deg, 97%, 53%);
+  cursor: pointer;
+}
+
+.thankyou {
+  display: none;
+  text-align: center;
+}
+.thankyou img {
+  margin-top: 0.8rem;
+}
+
+.rating {
+  background-color: hsl(213deg, 14%, 25%);
+  color: hsl(25deg, 97%, 53%);
+  border-radius: 1rem;
+  padding: 0.5rem 1.3rem 0.4rem 1.3rem;
+  display: inline-block;
+  margin-top: 1.7rem;
+}
+
+.ty-text {
+  color: hsl(217deg, 12%, 63%);
+  margin-left: 0.7rem;
+  width: 20.5rem;
+  line-height: 1.5rem;
+  font-size: 0.9rem;
+}
+
+.evaluation {
+  display: block;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  bottom: 0;
+  margin-bottom: 1.5rem;
+  width: 100%;
+  font-size: 0.69rem;
+  color: hsl(217deg, 12%, 63%);
+}
+footer a {
+  color: hsl(25deg, 97%, 53%);
+  text-decoration: none;
+}
+footer a:hover {
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=style.css.map */
